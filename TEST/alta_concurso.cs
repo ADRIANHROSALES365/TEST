@@ -22,5 +22,11 @@ namespace TEST
             Close();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Concurso c1 = new Concurso(1,"Prueba","random","de",1500,"Ssdqw");
+            c1.agregar_bd();
+        }
     }
 }

@@ -15,3 +15,4 @@ C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.pdb
 C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.genruntimeconfig.cache
 C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\ref\TEST.dll
 C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.alta_concurso.resources
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.sourcelink.json

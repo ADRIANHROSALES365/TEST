@@ -107,6 +107,7 @@
             button1.TabIndex = 6;
             button1.Text = "Guardar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
