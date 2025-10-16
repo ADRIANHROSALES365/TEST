@@ -1,0 +1,17 @@
+C:\Users\ad_ri\source\repos\TEST\TEST\bin\Debug\net8.0-windows\TEST.exe
+C:\Users\ad_ri\source\repos\TEST\TEST\bin\Debug\net8.0-windows\TEST.deps.json
+C:\Users\ad_ri\source\repos\TEST\TEST\bin\Debug\net8.0-windows\TEST.runtimeconfig.json
+C:\Users\ad_ri\source\repos\TEST\TEST\bin\Debug\net8.0-windows\TEST.dll
+C:\Users\ad_ri\source\repos\TEST\TEST\bin\Debug\net8.0-windows\TEST.pdb
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.Form1.resources
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.csproj.GenerateResource.cache
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.AssemblyInfoInputs.cache
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.AssemblyInfo.cs
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.csproj.CoreCompileInputs.cache
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.dll
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\refint\TEST.dll
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.pdb
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.genruntimeconfig.cache
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\ref\TEST.dll
+C:\Users\ad_ri\source\repos\TEST\TEST\obj\Debug\net8.0-windows\TEST.alta_concurso.resources
