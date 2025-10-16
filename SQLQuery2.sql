@@ -1,0 +1,1 @@
+﻿create table concurso(id int identity(1,1),nombre varchar(50),persona varchar(30),dependencia varchar(50),precio int,stat varchar(50),primary key(id))
