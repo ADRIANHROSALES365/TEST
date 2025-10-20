@@ -36,12 +36,12 @@
             label6 = new Label();
             button1 = new Button();
             button2 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox5 = new TextBox();
-            comboBox1 = new ComboBox();
-            monthCalendar1 = new MonthCalendar();
+            tb_nombre = new TextBox();
+            tb_persona = new TextBox();
+            tb_dependencia = new TextBox();
+            tb_precio = new TextBox();
+            cb_status = new ComboBox();
+            calendar_1 = new MonthCalendar();
             button3 = new Button();
             SuspendLayout();
             // 
@@ -118,48 +118,49 @@
             button2.Text = "Limpiar";
             button2.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // tb_nombre
             // 
-            textBox1.Location = new Point(174, 35);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(257, 27);
-            textBox1.TabIndex = 8;
+            tb_nombre.Location = new Point(174, 35);
+            tb_nombre.Name = "tb_nombre";
+            tb_nombre.Size = new Size(257, 27);
+            tb_nombre.TabIndex = 8;
             // 
-            // textBox2
+            // tb_persona
             // 
-            textBox2.Location = new Point(208, 111);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(223, 27);
-            textBox2.TabIndex = 9;
+            tb_persona.Location = new Point(208, 111);
+            tb_persona.Name = "tb_persona";
+            tb_persona.Size = new Size(223, 27);
+            tb_persona.TabIndex = 9;
             // 
-            // textBox3
+            // tb_dependencia
             // 
-            textBox3.Location = new Point(174, 182);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(257, 27);
-            textBox3.TabIndex = 10;
+            tb_dependencia.Location = new Point(174, 182);
+            tb_dependencia.Name = "tb_dependencia";
+            tb_dependencia.Size = new Size(257, 27);
+            tb_dependencia.TabIndex = 10;
             // 
-            // textBox5
+            // tb_precio
             // 
-            textBox5.Location = new Point(589, 39);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 12;
+            tb_precio.Location = new Point(589, 39);
+            tb_precio.Name = "tb_precio";
+            tb_precio.Size = new Size(125, 27);
+            tb_precio.TabIndex = 12;
+            tb_precio.TextChanged += textBox5_TextChanged;
             // 
-            // comboBox1
+            // cb_status
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "EN PROGRESO", "ENTREGADO", "PAGADO" });
-            comboBox1.Location = new Point(589, 115);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 13;
+            cb_status.FormattingEnabled = true;
+            cb_status.Items.AddRange(new object[] { "EN PROGRESO", "ENTREGADO", "PAGADO" });
+            cb_status.Location = new Point(589, 115);
+            cb_status.Name = "cb_status";
+            cb_status.Size = new Size(151, 28);
+            cb_status.TabIndex = 13;
             // 
-            // monthCalendar1
+            // calendar_1
             // 
-            monthCalendar1.Location = new Point(174, 239);
-            monthCalendar1.Name = "monthCalendar1";
-            monthCalendar1.TabIndex = 14;
+            calendar_1.Location = new Point(174, 239);
+            calendar_1.Name = "calendar_1";
+            calendar_1.TabIndex = 14;
             // 
             // button3
             // 
@@ -177,12 +178,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(button3);
-            Controls.Add(monthCalendar1);
-            Controls.Add(comboBox1);
-            Controls.Add(textBox5);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(calendar_1);
+            Controls.Add(cb_status);
+            Controls.Add(tb_precio);
+            Controls.Add(tb_dependencia);
+            Controls.Add(tb_persona);
+            Controls.Add(tb_nombre);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label6);
@@ -207,12 +208,12 @@
         private Label label6;
         private Button button1;
         private Button button2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox5;
-        private ComboBox comboBox1;
-        private MonthCalendar monthCalendar1;
+        private TextBox tb_nombre;
+        private TextBox tb_persona;
+        private TextBox tb_dependencia;
+        private TextBox tb_precio;
+        private ComboBox cb_status;
+        private MonthCalendar calendar_1;
         private Button button3;
     }
 }

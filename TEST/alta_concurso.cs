@@ -25,8 +25,25 @@ namespace TEST
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Concurso c1 = new Concurso(1,"Prueba","random","de",1500,"Ssdqw");
-            c1.agregar_bd();
+
+            try {
+
+                DateTime selected_date = calendar_1.SelectionRange.Start;
+                Concurso c1 = new Concurso(tb_nombre.Text, tb_persona.Text, tb_dependencia.Text, int.Parse(tb_precio.Text), cb_status.Text,selected_date.ToString("dd MM yyyy"));
+                c1.agregar_bd();
+                MessageBox.Show("Concurso guardado correctamente");
+
+            } catch (Exception ex) {
+
+                Console.WriteLine("Error agregando el concurso a la base de datos"+ex.Message);
+
+            }
+           
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

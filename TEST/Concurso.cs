@@ -10,27 +10,27 @@ namespace TEST
 {
     internal class Concurso
     {
-        public int id_c;
         public string nombre_c;
         public string nombre_p;
         public string nombre_d;
         public int precio_c;
         public string status_c;
-        public Concurso(int id_concurso, string nombre_concurso, string persona, String dependencia, int precio, string status)
+        public string calendar_c;
+            public Concurso(string nombre_concurso, string persona, String dependencia, int precio, string status, string calendar)
         {
-            id_c = id_concurso;
             nombre_c = nombre_concurso;
             nombre_p = persona;
             nombre_d = dependencia;
             precio_c = precio;
             status_c = status;
+            calendar_c=calendar;
         }
 
         public void agregar_bd()
         {
-            if (id_c != 0 && nombre_c != null && nombre_p != null&& nombre_d!=null&& precio_c!=0&& status_c!=null)
+            if (nombre_c != null && nombre_p != null&& nombre_d!=null&& precio_c>0&& status_c!=null&&calendar_c!=null)
             {
-                string insert_query = "insert into concurso values('" + nombre_c + "','"+nombre_p+"','"+nombre_d+"',"+precio_c+",'"+status_c+"')";
+                string insert_query = "insert into concurso values('" + nombre_c + "','"+nombre_p+"','"+nombre_d+"',"+precio_c+",'"+status_c+",'"+calendar_c+"')";
                 MessageBox.Show(insert_query);
             }
             else
