@@ -33,7 +33,7 @@ namespace TEST
             {   
                 //Creting a insert query with the data obtained from the UI 
 
-                string insert_query = "insert into concurso values('" + nombre_c + "','" + nombre_p + "','" + nombre_d + "'," + precio_c + ",'" + status_c + ",'" + calendar_c + "')";
+                string insert_query = "insert into concurso values('" + nombre_c + "','" + nombre_p + "','" + nombre_d + "'," + precio_c + ",'" + status_c + "','" + calendar_c + "')";
                 
                 //MessageBox.Show(insert_query);
 
@@ -46,11 +46,17 @@ namespace TEST
                     try
                     {
                         connection.Open();
-                        MessageBox.Show("Conexion exitosa");
+                        //MessageBox.Show("Conexion exitosa");
+                        SqlCommand insert_command = new SqlCommand(insert_query, connection);
+                        MessageBox.Show(insert_query);
+                        insert_command.ExecuteNonQuery();
+                        insert_command.Dispose();
+
+
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show("Error en conexion de DB", e.ToString());
+                        Console.Write("Error en conexion de DB", e);
                     }
                 }
             }
