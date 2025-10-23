@@ -25,7 +25,7 @@ namespace TEST
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+             
             try {
 
                 DateTime selected_date = calendar_1.SelectionRange.Start;
@@ -35,7 +35,7 @@ namespace TEST
 
             } catch (Exception ex) {
 
-                Console.WriteLine("Error agregando el concurso a la base de datos"+ex.Message);
+                MessageBox.Show("Error agregando el concurso a la base de datos"+ex.Message);
 
             }
            
