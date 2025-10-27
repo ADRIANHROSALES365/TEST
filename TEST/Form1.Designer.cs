@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            GDV01 = new DataGridView();
+            DGV01 = new DataGridView();
             B_Agregar_01 = new Button();
             B_Editar_01 = new Button();
             B_Borrar_02 = new Button();
             button1 = new Button();
             label1 = new Label();
-            ((System.ComponentModel.ISupportInitialize)GDV01).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DGV01).BeginInit();
             SuspendLayout();
             // 
-            // GDV01
+            // DGV01
             // 
-            GDV01.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            GDV01.Location = new Point(12, 90);
-            GDV01.Name = "GDV01";
-            GDV01.RowHeadersWidth = 51;
-            GDV01.Size = new Size(776, 291);
-            GDV01.TabIndex = 0;
+            DGV01.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DGV01.Location = new Point(12, 90);
+            DGV01.Name = "DGV01";
+            DGV01.RowHeadersWidth = 51;
+            DGV01.Size = new Size(776, 291);
+            DGV01.TabIndex = 0;
             // 
             // B_Agregar_01
             // 
@@ -103,17 +103,17 @@
             Controls.Add(B_Borrar_02);
             Controls.Add(B_Editar_01);
             Controls.Add(B_Agregar_01);
-            Controls.Add(GDV01);
+            Controls.Add(DGV01);
             Name = "Form1";
             Text = "Control Propuestas realizadas";
-            ((System.ComponentModel.ISupportInitialize)GDV01).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DGV01).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private DataGridView GDV01;
+        private DataGridView DGV01;
         private Button B_Agregar_01;
         private Button B_Editar_01;
         private Button B_Borrar_02;
